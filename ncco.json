@@ -1,0 +1,19 @@
+[
+    {
+        "action":"connect",
+        "eventUrl":[
+            "https://requestb.in/1jixesy1"
+        ],
+        "from":"447520635757",
+        "endpoint":[
+            {
+                "type":"websocket",
+                "uri":"ws://54fa2cec.ngrok.io/socket",
+                "content-type":"audio/l16;rate=16000",
+                "headers":{
+                    "whatever":"metadata_you_want"
+                }
+            }
+        ]
+    }
+]
