@@ -14,7 +14,7 @@ def spectrum(fs):
     return lambda i: (zsp(i) + 1) * amplitude
 
 def gen_sample():
-    fs = [1000, 1100, 1300, 1400, 1600, 1700, 1900, 2000]
+    fs = [1000, 2400]
     sp = spectrum(fs)
     waveform = np.fromfunction(sp, (16000,))
     intform = np.array(np.floor(waveform), dtype=np.uint16)

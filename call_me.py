@@ -33,7 +33,7 @@ payload = {
             "type": "phone",
             "number": "447520635757"
             },
-        "answer_url": ["https://54fa2cec.ngrok.io/ncco"]
+        "answer_url": ["https://7a732b2f.ngrok.io/ncco"]
         }
 
 response = requests.post( base_url + version + action , data=json.dumps(payload), headers=headers)

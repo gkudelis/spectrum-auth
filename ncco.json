@@ -8,7 +8,7 @@
         "endpoint":[
             {
                 "type":"websocket",
-                "uri":"ws://54fa2cec.ngrok.io/socket",
+                "uri":"ws://7a732b2f.ngrok.io/socket",
                 "content-type":"audio/l16;rate=16000",
                 "headers":{
                     "whatever":"metadata_you_want"
